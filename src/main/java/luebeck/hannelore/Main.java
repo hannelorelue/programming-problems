@@ -1,7 +1,26 @@
 package luebeck.hannelore;
 
+
+import java.util.ArrayList;
+
 public class Main {
+    public static int getRandomInteger(int minValue, int maxValue) {
+        return (int) ((Math.random() * (maxValue - minValue)) + minValue);
+    }
+    public static ArrayList<Integer> getRandomIntegerArrayList(int length, int minValue, int maxValue) {
+        ArrayList<Integer> a = new ArrayList<>();
+        for(int i = 0; i < length; i++) {
+            a.add(getRandomInteger(minValue, maxValue));
+        }
+        return a;
+    }
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("1. Move Negative elements to the front");
+        // generate input data
+        ArrayList<Integer> a = getRandomIntegerArrayList(10, -10, 10);
+
+        System.out.println(a);
+
+        // TODO
     }
 }

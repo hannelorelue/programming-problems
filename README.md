@@ -4,7 +4,7 @@ In this repository I implement 100 Java programming problems from the following 
 
 ## Array Problems
 
-### Move Negative elements to the front
+### 1. Move Negative elements to the front
 
 #### Problem statement:
 move the negative elements of an array to the front
@@ -28,12 +28,12 @@ Note:
 * All negative elements have been moved to the front.
 * All positive elements have been moved to the end or followed by all the negative elements.
 
-Implemented in [Test.java](./Test.java) additional nodes on how it is implemented e.g. O(n log n) instead of naive O(n)
+Implemented in [MoveNegToFront.java](./src/main/java/luebeck/hannelore/move_neg_to_front/MoveNegToFront.java) additional nodes on how it is implemented e.g. O(n log n) instead of naive O(n)
 
-### 2 Sum Problem
+### 2. Two Sum Problem
 
-### 3 Sum Problem
+### 3. Three Sum Problem
 
-### 3 Sum Closest Problem
+### 4. Three Sum Closest Problem
 
-### 4 Sum Problem
+### 5. Four Sum Problem
