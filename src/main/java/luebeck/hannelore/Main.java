@@ -1,6 +1,8 @@
 package luebeck.hannelore;
 
 
+import luebeck.hannelore.move_neg_to_front.MoveNegToFront;
+
 import java.util.ArrayList;
 
 public class Main {
@@ -18,8 +20,10 @@ public class Main {
         System.out.println("1. Move Negative elements to the front");
         // generate input data
         ArrayList<Integer> a = getRandomIntegerArrayList(10, -10, 10);
-
+        System.out.println("Random Input list");
         System.out.println(a);
+        System.out.println("Output list");
+        System.out.println(MoveNegToFront.run(a));
 
         // TODO
     }
