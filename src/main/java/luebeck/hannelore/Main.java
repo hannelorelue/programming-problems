@@ -2,6 +2,7 @@ package luebeck.hannelore;
 
 
 import luebeck.hannelore.move_neg_to_front.MoveNegToFront;
+import luebeck.hannelore.sum_exercieses.ThreeSumProblem;
 import luebeck.hannelore.sum_exercieses.TwoSumProblem;
 
 import java.util.ArrayList;
@@ -27,15 +28,19 @@ public class Main {
         System.out.println(MoveNegToFront.run(a));
 
         System.out.println("2. Two sum problem");
-        ArrayList<Integer> b = new ArrayList<>();
-        b.add(2);
-        b.add(7);
-        b.add(11);
-        b.add(15);
+//        ArrayList<Integer> b = new ArrayList<>();
+//        b.add(2);
+        ArrayList<Integer> b = getRandomIntegerArrayList(10, 0, 10);
         System.out.println("Input list");
         System.out.println(b);
         System.out.println("Number of pairs:");
         System.out.println(TwoSumProblem.run(b, 9));
+
+        System.out.println("3. Three sum problem");
+        ArrayList<Integer> c = getRandomIntegerArrayList(10, 1, 10);
+        System.out.println("Input list");
+        System.out.println(c);
+        System.out.println(ThreeSumProblem.run(c, 9));
 
     }
 }

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef52d507-5c73-4f43-a1e4-e7237ce61ee5" name="Changes" comment="Implemented first problem Move Negative elements to the front">
+    <list default="true" id="ef52d507-5c73-4f43-a1e4-e7237ce61ee5" name="Changes" comment="Implemented three sum problem">
       <change afterPath="$PROJECT_DIR$/src/main/java/luebeck/hannelore/sum_exercieses/ThreeSumProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/luebeck/hannelore/sum_exercieses/TwoSumProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/luebeck/hannelore/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/luebeck/hannelore/Main.java" afterDir="false" />
     </list>
@@ -23,6 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -72,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668441697109</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented two sum problem">
+      <created>1668529122711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668529122711</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +97,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="added package for first problem" />
     <MESSAGE value="Implemented first problem Move Negative elements to the front" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented first problem Move Negative elements to the front" />
+    <MESSAGE value="Implemented two sum problem" />
+    <MESSAGE value="Implemented three sum problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented three sum problem" />
   </component>
 </project>
