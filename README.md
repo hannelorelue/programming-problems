@@ -50,6 +50,32 @@ return [0, 1]
 
 ### 3. Three Sum Problem
 
+#### Problem Statement: 
+Given an array, we need to find if there is a triplet in the array whose sum is equal to a given value. If such a triplet is present, we need to print it and return true. Else, return false.
+
+Example:
+
+Input: arr = [3,4,12,6,2,9] , sum = 24
+Output: 3 , 12 , 9
+Explanation: The triplet(3,9,12) give us a sum of 24.
+
 ### 4. Three Sum Closest Problem
+#### Problem Statement: 
+Find all triplets close to the given sum.
+
+Example:
+
+Let the array be [7, 12, 3, 1, 2, -6, 5, -8, 6]
+Let S = 0
+
+It is possible to find three elements whose sum = 0
+Then the output is [[2, -8, 6], [3, 5, -8], [1, -6, 5]]
+
+Example 2:
+
+Let the array be [1, 2, 3, 9, 6]
+Let S = 7
+
+It is not possible to find three elements whose sum = 7. But [1, 2, 3] whose sum = 6 is the closest sum and is the output
 
 ### 5. Four Sum Problem
