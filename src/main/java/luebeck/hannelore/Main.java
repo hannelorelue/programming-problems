@@ -4,6 +4,7 @@ package luebeck.hannelore;
 import luebeck.hannelore.move_neg_to_front.MoveNegToFront;
 import luebeck.hannelore.sum_exercieses.ThreeSumProblem;
 import luebeck.hannelore.sum_exercieses.TwoSumProblem;
+import luebeck.hannelore.sum_exercieses.ClosestThreeSum;
 
 import java.util.ArrayList;
 
@@ -41,6 +42,21 @@ public class Main {
         System.out.println("Input list");
         System.out.println(c);
         System.out.println(ThreeSumProblem.run(c, 9));
+
+        System.out.println("4. Closes Three sum problem");
+        //ArrayList<Integer> d = getRandomIntegerArrayList(6, 1, 5);
+        ArrayList<Integer> d = new ArrayList<>();
+        d.add(7);
+        d.add(12);
+        d.add(3);
+        d.add(1);
+        d.add(2);
+        d.add(-6);
+        d.add(5);
+        d.add(6);
+        System.out.println("Input list");
+        System.out.println(d);
+        ClosestThreeSum.run(d, 0);
 
     }
 }
