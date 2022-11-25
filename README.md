@@ -79,3 +79,11 @@ Let S = 7
 It is not possible to find three elements whose sum = 7. But [1, 2, 3] whose sum = 6 is the closest sum and is the output
 
 ### 5. Four Sum Problem
+
+
+
+## Linked List Problems
+
+### 1. Linked List implemention without null
+
+The file NoNullsLinkedList contains an implemention without the use of null 
